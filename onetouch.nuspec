@@ -3,21 +3,22 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.Paypal.OneTouch</id>
-        <version>2.5.3.1</version>
-        <description>Xamarin Binding Library - Paypal OneTouch</description>
-        <authors>Vu Duc Tuyen</authors>
+        <version>2.6.2</version>
+        <description>Xamarin Android Binding Library - Paypal OneTouch</description>
+        <authors>NAXAM CO.,LTD</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <title>Naxam - Paypal OneTouch</title>
-        <releaseNotes>Paypal OneTouch v2.5.3</releaseNotes>
-        <summary>Xamarin Binding Library - Paypal OneTouch</summary>
+        <title>Naxam - Paypal OneTouch for Android</title>
+        <releaseNotes>Paypal OneTouch v2.6.2</releaseNotes>
+        <summary>Xamarin Android Binding Library - Paypal OneTouch</summary>
+        <iconUrl>https://avatars3.githubusercontent.com/u/3453</iconUrl>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/NAXAM/xand-paypal-onetouch</projectUrl>
         <copyright>Copyright (c) 2017 NAXAM</copyright>
         <tags>Xamarin.Android, paypal, onetouch, one-touch, paypal-one-touch</tags>
         <dependencies>
-            <dependency id="Naxam.BrainTree.Core" version="2.5.3" />
-            <dependency id="Naxam.Paypal.DataCollector" version="2.5.3" />
+            <dependency id="Naxam.BrainTree.Core" version="2.6.2" />
+            <dependency id="Naxam.Paypal.DataCollector" version="2.6.2" />
         </dependencies>
     </metadata>
     <!-- Optional 'files' node -->

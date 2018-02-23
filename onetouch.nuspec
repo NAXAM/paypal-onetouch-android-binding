@@ -17,8 +17,6 @@
         <copyright>Copyright (c) 2018 NAXAM</copyright>
         <tags>Xamarin.Android, paypal, onetouch, one-touch, paypal-one-touch</tags>
         <dependencies>
-            <dependency id="Naxam.BrainTree.Core" version="2.8.1" />
-            <dependency id="Naxam.Paypal.DataCollector" version="2.8.1" />
         </dependencies>
     </metadata>
     <!-- Optional 'files' node -->

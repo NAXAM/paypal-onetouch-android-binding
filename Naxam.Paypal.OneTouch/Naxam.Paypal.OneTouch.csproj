@@ -36,18 +36,20 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Naxam.BrainTree.Core, Version=2.10.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>../packages/Naxam.BrainTree.Core.2.10.0/lib/MonoAndroid10/Naxam.BrainTree.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Naxam.Paypal.DataCollector, Version=2.10.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>../packages/Naxam.Paypal.DataCollector.2.10.0/lib/MonoAndroid10/Naxam.Paypal.DataCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
     <Reference Include="Naxam.BrainTree.BrowserSwitch.Droid">
       <HintPath>..\packages\Naxam.BrainTree.BrowserSwitch.Droid.0.1.4\lib\MonoAndroid10\Naxam.BrainTree.BrowserSwitch.Droid.dll</HintPath>
-    </Reference>
-    <Reference Include="Naxam.BrainTree.Core">
-      <HintPath>..\packages\Naxam.BrainTree.Core.2.8.1\lib\MonoAndroid10\Naxam.BrainTree.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Naxam.Paypal.DataCollector">
-      <HintPath>..\packages\Naxam.Paypal.DataCollector.2.8.1\lib\MonoAndroid10\Naxam.Paypal.DataCollector.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -65,7 +67,7 @@
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\paypal-one-touch-2.8.1.aar" />
+    <LibraryProjectZip Include="Jars\paypal-one-touch.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>
